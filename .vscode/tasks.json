@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "tasks": [
+    {
+      "command": "g++",
+      "taskName": "build",
+      "showOutput": "silent",
+      "problemMatcher": [
+        "$tsc",
+        "$lessCompile"
+      ],
+      "isBuildCommand": true,
+      "args": [
+        "-g",
+        "test.cpp"
+      ]
+    },
+    {
+      "command": "./a.out",
+      "taskName": "run",
+      "showOutput": "always",
+      "isTestCommand": true
+    }
+  ]
+}

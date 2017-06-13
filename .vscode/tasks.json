@@ -12,11 +12,13 @@
       "isBuildCommand": true,
       "args": [
         "-g",
-        "test.cpp"
+        "test.cpp",
+        "-o",
+        "a.exe"
       ]
     },
     {
-      "command": "./a.out",
+      "command": "./a.exe",
       "taskName": "run",
       "showOutput": "always",
       "isTestCommand": true

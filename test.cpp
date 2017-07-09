@@ -2,13 +2,13 @@
 
 bool whatsapp()
 {
-  std::cout << "Qué pasaaaa!\n";
+  std::cout << "Que pasaaaa" << std::endl;
   return false;
 }
 
 int main()
 {
-  std::cout << "Hello world!\n";
+  std::cout << "Hello world!" << std::endl;
   whatsapp();
 }
 

@@ -13,12 +13,13 @@
       "args": [
         "-g",
         "test.cpp",
+        "-std=c++11",
         "-o",
-        "a.exe"
+        "test.exe"
       ]
     },
     {
-      "command": "./a.exe",
+      "command": "./test.exe",
       "taskName": "run",
       "showOutput": "always",
       "isTestCommand": true

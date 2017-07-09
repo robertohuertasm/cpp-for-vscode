@@ -6,7 +6,7 @@
       "type": "cppdbg",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceRoot}/a.exe",
+      "program": "${workspaceRoot}/test.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceRoot}",

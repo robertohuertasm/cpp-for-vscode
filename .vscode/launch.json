@@ -9,6 +9,7 @@
       "program": "${workspaceRoot}/test.exe",
       "args": [],
       "stopAtEntry": false,
+      "externalConsole": true,
       "cwd": "${workspaceRoot}",
       "environment": [],
       "setupCommands": [

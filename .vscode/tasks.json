@@ -1,5 +1,6 @@
 {
   "version": "0.1.0",
+  "runner": "terminal",
   "tasks": [
     {
       "command": "g++",
@@ -22,7 +23,8 @@
       "command": "./test.exe",
       "taskName": "run",
       "showOutput": "always",
-      "isTestCommand": true
+      "isTestCommand": true,
+      "isShellCommand": true
     }
   ]
 }

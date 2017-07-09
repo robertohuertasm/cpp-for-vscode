@@ -10,5 +10,6 @@ int main()
 {
   std::cout << "Hello world!" << std::endl;
   whatsapp();
+  return 0;
 }
 

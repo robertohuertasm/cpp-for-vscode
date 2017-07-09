@@ -2,7 +2,9 @@
 
 This configuration works both in Linux and Windows.
 
-Just press **F5** and it will work out of the box.
+Just press **F5** and it will work out of the box. It will compile the `test.cpp` using `g++` and will debug your program with `gdb`.
+
+Remember that the output of your program will be shown in the `Debug Console` tab of your integrated terminal.
 
 In Windows, use `MinGw` to get `g++` working.
 
